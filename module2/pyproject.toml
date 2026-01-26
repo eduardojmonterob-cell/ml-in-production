@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "module2"
+version = "0.1.0"
+description = ""
+authors = ["Eduardo Montero <ejmontero10@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+pandas = "^3.0.0"
+scikit-learn = "^1.8.0"
+pydantic-settings = "^2.12.0"
+loguru = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
