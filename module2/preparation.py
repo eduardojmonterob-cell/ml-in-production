@@ -1,7 +1,7 @@
 
 import re
 import pandas as pd
-from collection import load_data
+from collection import load_data_from_db
 from loguru import logger
 
 def prepare_data():
@@ -9,7 +9,7 @@ def prepare_data():
     # To prepare the data we need:
 
     #1. Load the dataset
-    data = load_data()
+    data = load_data_from_db()
     #2. enconde columns like balcony, parking, furnished, garage, storage
     data_encoded = enconde_cat_cols(data) 
     #3. parse garden column
