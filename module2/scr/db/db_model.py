@@ -1,18 +1,30 @@
+"""
+Modelos ORM para apartamentos en alquiler.
+
+Este módulo define el modelo ORM `RentApartments` utilizando el mapeo
+declarativo de SQLAlchemy. El modelo representa apartamentos en alquiler
+almacenados en una base de datos relacional y mapea atributos del dominio
+inmobiliario como ubicación, superficie, comodidades y precio de renta
+a columnas de la tabla correspondiente.
+
+El nombre de la tabla se obtiene dinámicamente desde la configuración de
+la aplicación mediante `settings.rent_apartment_table_name`, lo que
+permite flexibilidad entre distintos entornos.
+
+El modelo está pensado para ser utilizado en operaciones CRUD y en
+consultas relacionadas con la gestión de apartamentos en alquiler.
+"""
+
 from sqlalchemy import INTEGER, REAL, VARCHAR
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
-from config.config import settings
 
-
-class RentApartments(DeclarativeBase):
+from config import db_settings
+class Base(DeclarativeBase):
+    """Clase base declarativa para todos los modelos ORM de SQLAlchemy."""
+    pass
+class RentApartments(Base):
     """
-    Modelo ORM que representa apartamentos en alquiler.
-
-    Esta clase mapea la tabla de apartamentos en alquiler dentro de la base
-    de datos y define las características principales del inmueble, tales
-    como ubicación, dimensiones, comodidades y precio de renta.
-
-    Se utiliza como entidad persistente en operaciones de lectura y escritura
-    mediante SQLAlchemy.
+    Clase SQLAlchemy para rent aparments
 
     Attributes:
         address (str): Dirección completa del apartamento. Clave primaria.
@@ -34,7 +46,7 @@ class RentApartments(DeclarativeBase):
         rent (int): Precio de alquiler mensual.
     """
 
-    __tablename__ = settings.rent_apartment_table_name
+    __tablename__ = db_settings.rent_apartment_table_name
 
     address: Mapped[str] = mapped_column(VARCHAR(255), primary_key=True)
     area: Mapped[float] = mapped_column(REAL())
