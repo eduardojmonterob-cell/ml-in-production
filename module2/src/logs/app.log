@@ -1,0 +1,10 @@
+2026-03-11 20:57:25.809 | INFO     | __main__:main:33 - running the application...
+2026-03-11 20:57:25.810 | INFO     | model.model_service:load_model:52 - Verificando la existencia del archivo del modelo en %s
+2026-03-11 20:57:25.810 | INFO     | model.model_service:load_model:64 - Cargando el modelo desde %s
+2026-03-11 20:57:25.826 | INFO     | model.model_service:predict:93 - Realizando predicción
+2026-03-11 20:57:25.836 | WARNING  | __main__:main:50 - Prediction: [1514.30343792]
+2026-03-11 20:58:20.525 | INFO     | __main__:main:33 - running the application...
+2026-03-11 20:58:20.525 | INFO     | model.model_service:load_model:52 - Verificando la existencia del archivo del modelo en %s
+2026-03-11 20:58:20.525 | INFO     | model.model_service:load_model:64 - Cargando el modelo desde %s
+2026-03-11 20:58:20.539 | INFO     | model.model_service:predict:93 - Realizando predicción
+2026-03-11 20:58:20.549 | WARNING  | __main__:main:50 - Prediction: [1514.30343792]
