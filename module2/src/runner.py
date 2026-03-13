@@ -15,6 +15,7 @@ Uso típico:
     >>> python main.py
 """
 
+
 from loguru import logger
 
 from model.model_service import ModelService
