@@ -1,0 +1,42 @@
+2026-10-05 21:01:53.238 | INFO     | __main__:main:36 - running the application...
+2026-10-05 21:01:53.241 | INFO     | model.model_service:load_model:52 - Verificando la existencia del archivo del modelo en %s
+2026-10-05 21:01:53.241 | INFO     | model.model_service:load_model:64 - Cargando el modelo desde %s
+2026-10-05 21:01:53.255 | INFO     | model.model_service:predict:93 - Realizando predicción
+2026-10-05 21:01:53.265 | WARNING  | __main__:main:53 - Prediction: [1514.30343792]
+2026-10-05 21:04:40.383 | INFO     | __main__:main:36 - running the application...
+2026-10-05 21:04:40.383 | INFO     | model.model_service:load_model:52 - Verificando la existencia del archivo del modelo en %s
+2026-10-05 21:04:40.383 | INFO     | model.model_service:load_model:64 - Cargando el modelo desde %s
+2026-10-05 21:04:40.396 | INFO     | model.model_service:predict:93 - Realizando predicción
+2026-10-05 21:04:40.406 | WARNING  | __main__:main:53 - Prediction: [1514.30343792]
+2026-10-05 21:09:16.781 | INFO     | __main__:main:36 - running the application...
+2026-10-05 21:09:16.782 | INFO     | model.model_service:load_model:52 - Verificando la existencia del archivo del modelo en
+2026-10-05 21:09:16.782 | WARNING  | model.model_service:load_model:58 - El modelo no fue encontrado en model/models/rf_db_v2. Construyendo el modelo.
+2026-10-05 21:09:16.782 | INFO     | model.pipeline.preparation:prepare_data:36 - starting up processing pipeline
+2026-10-05 21:09:16.782 | INFO     | model.pipeline.collection:load_data_from_db:30 - extracting the table from database
+2026-10-05 21:09:16.805 | INFO     | model.pipeline.preparation:_enconde_cat_cols:60 - Encoding caregorical columns ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2026-10-05 21:09:16.817 | INFO     | model.pipeline.preparation:_parse_garden_col:84 - Parsing column garden
+2026-10-05 21:09:16.818 | INFO     | model.pipeline.model:_get_x_y:110 - Identifying X and y ...
+2026-10-05 21:09:16.819 | INFO     | model.pipeline.model:_split_train_test:129 - Splitting X and y ...
+2026-10-05 21:09:16.822 | INFO     | model.pipeline.model:_train_model:161 - Training the model ...
+2026-10-05 21:09:47.572 | INFO     | model.pipeline.model:_evaluate_model:204 - Evaluating and tunning the model ...
+2026-10-05 21:09:47.609 | INFO     | model.pipeline.model:build_model:83 - Model R2 score: 0.7269579428512637
+2026-10-05 21:09:47.609 | INFO     | model.pipeline.model:_save_model:226 - saving the model to a directory: model/models/rf_db_v2
+2026-10-05 21:09:47.629 | INFO     | model.model_service:load_model:63 - Cargando el modelo desde {model_path}
+2026-10-05 21:09:47.643 | INFO     | model.model_service:predict:91 - Realizando predicción
+2026-10-05 21:09:47.668 | WARNING  | __main__:main:53 - Prediction: [1512.15717858]
+2026-10-05 21:11:52.786 | INFO     | __main__:main:36 - running the application...
+2026-10-05 21:11:52.787 | INFO     | model.model_service:load_model:52 - Verificando la existencia del archivo del modelo en
+2026-10-05 21:11:52.787 | WARNING  | model.model_service:load_model:58 - El modelo no fue encontrado en model/models/rf_db_v3. Construyendo el modelo.
+2026-10-05 21:11:52.787 | INFO     | model.pipeline.preparation:prepare_data:36 - starting up processing pipeline
+2026-10-05 21:11:52.787 | INFO     | model.pipeline.collection:load_data_from_db:30 - extracting the table from database
+2026-10-05 21:11:52.814 | INFO     | model.pipeline.preparation:_enconde_cat_cols:60 - Encoding caregorical columns ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2026-10-05 21:11:52.834 | INFO     | model.pipeline.preparation:_parse_garden_col:84 - Parsing column garden
+2026-10-05 21:11:52.836 | INFO     | model.pipeline.model:_get_x_y:110 - Identifying X and y ...
+2026-10-05 21:11:52.836 | INFO     | model.pipeline.model:_split_train_test:129 - Splitting X and y ...
+2026-10-05 21:11:52.839 | INFO     | model.pipeline.model:_train_model:161 - Training the model ...
+2026-10-05 21:12:24.499 | INFO     | model.pipeline.model:_evaluate_model:204 - Evaluating and tunning the model ...
+2026-10-05 21:12:24.525 | INFO     | model.pipeline.model:build_model:83 - Model R2 score: 0.7187612663444134
+2026-10-05 21:12:24.525 | INFO     | model.pipeline.model:_save_model:226 - saving the model to a directory: model/models/rf_db_v3
+2026-10-05 21:12:24.536 | INFO     | model.model_service:load_model:63 - Cargando el modelo desde {model_path}
+2026-10-05 21:12:24.544 | INFO     | model.model_service:predict:91 - Realizando predicción
+2026-10-05 21:12:24.560 | WARNING  | __main__:main:53 - Prediction: [1535.30417913]

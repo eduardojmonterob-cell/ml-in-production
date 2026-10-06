@@ -1,0 +1,33 @@
+# This is our fist github action workflow
+
+name: Build Application
+description: GitHub Actions
+
+runs:
+  using: composite
+
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'
+
+    - name: Install poetry
+      uses: snok/install-poetry@v1
+      with:
+        virtualenvs-in-project: true
+
+    - name: Load cache venv
+      uses: actions/cache@v5
+      id: cache-poetry-dependencies
+      with:
+        path: .venv
+        key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+
+    - name: Install dependencies using poetry
+      if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+      run: poetry run make install
+      shell: bash
