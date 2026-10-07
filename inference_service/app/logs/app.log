@@ -1,0 +1,33 @@
+2026-10-07 14:07:32.083 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 14:07:32.083 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 14:12:46.673 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 14:12:46.674 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 14:12:48.081 | INFO     | services.model_inference:predict:80 - making prediction!
+2026-10-07 14:13:10.251 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 14:13:10.251 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 14:13:10.271 | INFO     | services.model_inference:predict:80 - making prediction!
+2026-10-07 14:13:28.679 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 14:13:28.680 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 14:13:28.705 | INFO     | services.model_inference:predict:80 - making prediction!
+2026-10-07 14:24:57.972 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 14:24:57.973 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 14:24:59.406 | INFO     | services.model_inference:predict:80 - making prediction!
+2026-10-07 15:09:22.976 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:09:22.978 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:10:02.380 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:10:02.380 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:10:38.454 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:10:38.454 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:11:16.377 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:11:16.377 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:11:18.044 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:11:18.044 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:12:36.575 | INFO     | services.model_inference:predict:80 - making prediction!
+2026-10-07 15:14:18.978 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:14:18.978 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:14:47.832 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:14:47.832 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:15:12.693 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:15:12.693 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file
+2026-10-07 15:16:49.971 | INFO     | services.model_inference:load_model:47 - checking the existance of model config file at model/rf_db_v3
+2026-10-07 15:16:49.971 | INFO     | services.model_inference:load_model:59 - model rf_db_v3 exists! -> loading model configuration file

@@ -1,1 +1,5 @@
 poetry==2.5.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+loguru==0.7.3
+scikit-learn==1.8.0
